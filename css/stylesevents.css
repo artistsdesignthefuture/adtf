@@ -1,0 +1,185 @@
+/* 
+Student Name: Kiela Smith
+Final project
+File name: stylesevents.css
+*/
+
+/* Style rules for all selectors */
+/* CSS Reset */
+body, header, nav, main, footer, article, img, figure, figcaption, aside, section, table, p, h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Flexbox layout to keep footer at bottom */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style rules for body */
+body {
+    background-color: beige;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    font-family: Verdana, Arial, sans-serif;
+    margin: 1em;
+    text-align: center;
+    align-items: center;
+    color: #341509;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #000;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+/* Main content */
+main {
+    padding: 1%;
+    flex: 1; /* Makes main take up available vertical space */
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+/* Headings */
+h1 {
+    font-family: Verdana, Arial, sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana, Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    color: #a6a6a6;
+    text-align: center;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Gallery styles */
+div.gallery {
+    border: 1px solid #000;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+/* Responsive columns */
+.responsive {
+    padding: 10px;
+    float: left;
+    width: 24.99%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+/* Clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style rule for the footer element */
+footer {
+    font-size: 0.9em;
+    text-align: center;
+    border-radius: 8px;
+    color: #000;
+    padding: 1em 1em;
+    margin: 10px auto;
+    width: 95%; 
+    max-width: 1200px; 
+}
+
+footer p {
+    margin-bottom: 0.5em;
+}
+footer img { /* Social media icon*/
+    display: inline-block; 
+    margin: 0 5px; 
+    width: 32px; 
+    height: 28px;
+}

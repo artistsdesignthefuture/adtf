@@ -1,0 +1,169 @@
+/* 
+Student Name: Kiela Smith
+Final project
+File name: styles1support.css 
+*/
+
+/* Style rules for all selectors */
+/* CSS Reset */
+body, header, nav, main, footer, article, img, figure, fig caption, aside, section, table, p, h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for images */
+img {
+    max-width: 100%;
+}
+
+/* Style rules for body */
+body {
+    background-color: beige;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Section element */
+section {
+  width: 60%; 
+  margin: 20px auto; 
+  padding: 20px; 
+   background-color: #000;
+  border-radius: 8px;
+}
+
+figure {
+   width: 80%; 
+  margin: 20px auto; 
+  padding: 20px; 
+   background-color: #000;
+  border-radius: 8px;
+}
+
+fig caption {
+    text-align: center;
+    color: white;
+}
+
+/* Article element */
+article {
+   background-color: #000;
+    color: #fff; 
+  width: 60%; 
+  margin: 10px auto; 
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+article ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+article li {
+    display: block;
+    font-size: 1em;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.white-link {
+    color: white;
+  text-decoration: underline;
+}
+
+
+/* Header */
+header {
+    font-family: Verdana, Arial, sans-serif;
+    margin: 1em;
+    text-align: center;
+    align-items: center;
+    color: #341509;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style rules for the main content  */
+main {
+    padding: 1%;
+}
+
+h1{
+    font-family: Verdana, Arial, sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+h2{
+    font-family: Verdana, Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, Arial, sans-serif;
+font-size: 16px;
+    color: #000;
+    text-align: center;
+    border: 2em;
+}
+
+/* Style rules for the navigation */
+nav {
+    background-color: #000;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+/* Style rule for the footer element */
+footer {
+    font-size: 0.9em;
+    text-align: center;
+    border-radius: 8px;
+    color: #000;
+    padding: 1em 1em;
+    margin: 10px auto;
+    width: 95%; 
+    max-width: 1200px; 
+}
+
+footer p {
+    margin-bottom: 0.5em;
+}
+footer img { /* Social media icon*/
+    display: inline-block; 
+    margin: 0 5px; 
+    width: 32px; 
+    height: 28px;
+}
